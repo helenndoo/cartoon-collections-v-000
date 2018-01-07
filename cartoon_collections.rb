@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(cappyp)# code an argument here
   # Your code here
-  cappy.collect do |cappyp|
+  cappy.collect do |cappy|
     "{cappy.capitalize}!"
   end
 end
@@ -27,5 +27,5 @@ def find_the_cheese(array)# code an argument here
     array.find do |item|
       cheese_types.include?(item)
     end
-    
+
 end
