@@ -9,14 +9,14 @@ end
 
 def summon_captain_planet(calls)# code an argument here
   # Your code here
-  cappy.collect do |call|
+  calls.collect do |call|
     "{cappy.capitalize}!"
   end
 end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  cappy.any? do |call|
+  calls.any? do |call|
     calls.length > 5
   end
 end
