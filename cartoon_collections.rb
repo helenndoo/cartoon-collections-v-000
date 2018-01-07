@@ -7,16 +7,16 @@ def roll_call_dwarves(dwarves)# code an argument here
   end
 end
 
-def summon_captain_planet(cappyp)# code an argument here
+def summon_captain_planet(calls)# code an argument here
   # Your code here
-  cappy.collect do |cappy|
+  cappy.collect do |call|
     "{cappy.capitalize}!"
   end
 end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  cappy.any? do |calls|
+  cappy.any? do |call|
     calls.length > 5
   end
 end
